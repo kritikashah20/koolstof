@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/koolstof/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/koolstof/static/js/main.b86a634a.chunk.js",
-    "main.js.map": "/koolstof/static/js/main.b86a634a.chunk.js.map",
-    "runtime-main.js": "/koolstof/static/js/runtime-main.b46b3322.js",
-    "runtime-main.js.map": "/koolstof/static/js/runtime-main.b46b3322.js.map",
-    "static/js/2.251646de.chunk.js": "/koolstof/static/js/2.251646de.chunk.js",
-    "static/js/2.251646de.chunk.js.map": "/koolstof/static/js/2.251646de.chunk.js.map",
-    "static/js/3.f8ebd4c4.chunk.js": "/koolstof/static/js/3.f8ebd4c4.chunk.js",
-    "static/js/3.f8ebd4c4.chunk.js.map": "/koolstof/static/js/3.f8ebd4c4.chunk.js.map",
+    "main.css": "/koolstof/static/css/main.85fc8f7a.chunk.css",
+    "main.js": "/koolstof/static/js/main.a632d43a.chunk.js",
+    "main.js.map": "/koolstof/static/js/main.a632d43a.chunk.js.map",
+    "runtime-main.js": "/koolstof/static/js/runtime-main.487941c9.js",
+    "runtime-main.js.map": "/koolstof/static/js/runtime-main.487941c9.js.map",
+    "static/css/2.a95be28f.chunk.css": "/koolstof/static/css/2.a95be28f.chunk.css",
+    "static/js/2.cf38e816.chunk.js": "/koolstof/static/js/2.cf38e816.chunk.js",
+    "static/js/2.cf38e816.chunk.js.map": "/koolstof/static/js/2.cf38e816.chunk.js.map",
+    "static/js/3.3219f058.chunk.js": "/koolstof/static/js/3.3219f058.chunk.js",
+    "static/js/3.3219f058.chunk.js.map": "/koolstof/static/js/3.3219f058.chunk.js.map",
     "index.html": "/koolstof/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/koolstof/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.251646de.chunk.js.LICENSE.txt": "/koolstof/static/js/2.251646de.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/koolstof/static/media/logo.6ce24c58.svg"
+    "static/css/2.a95be28f.chunk.css.map": "/koolstof/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.85fc8f7a.chunk.css.map": "/koolstof/static/css/main.85fc8f7a.chunk.css.map",
+    "static/js/2.cf38e816.chunk.js.LICENSE.txt": "/koolstof/static/js/2.cf38e816.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b46b3322.js",
-    "static/js/2.251646de.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.b86a634a.chunk.js"
+    "static/js/runtime-main.487941c9.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.cf38e816.chunk.js",
+    "static/css/main.85fc8f7a.chunk.css",
+    "static/js/main.a632d43a.chunk.js"
   ]
 }
