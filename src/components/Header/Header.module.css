@@ -1,0 +1,15 @@
+.headerContainer {
+    height: 100px;
+    /* padding-right: 10px;
+    margin-right: 20px; */
+    /* background-color: yellow; */
+}
+
+.customButton {
+    border: 1px solid var(--primary-white);
+    color: var(--primary-white);
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    right:0;
+}

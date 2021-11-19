@@ -1,0 +1,32 @@
+.mainContent {
+    margin: auto;
+    width: 60vw ;
+    min-height: 250px;
+    /* background-color: violet; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.appLink {
+    color: var(--primary-logo);
+    font-size: 80px;
+    font-family: var(--primary-hp-heading-font);
+    font-weight: 700;
+}
+
+.appLink:hover {
+    color: var(--primary-logo);
+}
+
+h2 {
+    text-align: center;
+    /* background-color: tomato; */
+    width: 50vw;
+    margin: auto;
+    font-family: var(--primary-heading-font);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primary-white);
+    /* align-items: center;
+    justify-content: center; */
+}
