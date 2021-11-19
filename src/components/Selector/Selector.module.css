@@ -1,0 +1,5 @@
+.selectBar {
+    border: 1px solid white;
+    min-height: 50px;
+    display: flex;
+}

@@ -1,9 +1,13 @@
 import styles from './Editor.module.css';
 
+import Toolbar from '../Toolbar';
+import EditorCard from '../EditorCard';
+
 const Editor = () => {
     return (
         <div className={styles.editorContainer}>
-            hello
+            <Toolbar />
+            <EditorCard />
         </div>
     )
 }
