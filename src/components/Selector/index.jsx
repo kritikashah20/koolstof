@@ -16,7 +16,7 @@ const Selector = ({ icon, options }) => {
     return (
         <div className={styles.selectBar}>
             {icon}
-            <Select placeholder="Select a value" size="large" style={{ width: 200, height: 50 }} onChange={handleChange} >
+            <Select placeholder="Select a value" size="large" style={{ width: 200, height: 'fit-content' }} onChange={handleChange} >
                 {options.map((p, index) => (
                     <Option value={p.text}>{p.text}</Option>
                 ))}
