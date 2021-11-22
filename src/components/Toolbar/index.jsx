@@ -11,26 +11,24 @@ import { AiOutlineDown, AiTwotoneSetting } from 'react-icons/ai'
 import Selector from '../Selector';
 
 import { poem } from '../../constants/poem'
-import { themes } from '../../constants/themes'
+import { contentThemes } from '../../constants/contentThemes'
 
-const { Option } = Select;
+import Head from '../Dropdown/Head';
 
-const Toolbar = () => {
+const Toolbar = ({ handleChange }) => {
 
-    const [color, setColor] = useState("#26ecdf")
-    const [showColorPicker, setShowColorPicker] = useState(false)
 
     return (
         <div className={styles.toolbar}>
-            <Selector icon={<IoColorPaletteSharp size={50} style={{padding: 8}}/>} options={themes}/>
-            <Selector icon={<RiQuillPenFill size={50} style={{padding: 8}}/>} options={poem}/>
-            {/* <div ></div>onClick={() => setShowColorPicker(!showColorPicker)} style={{ backgroundColor: color, width: 50, height: 50}} />
-            {
-                showColorPicker && <ChromePicker color={color} onChange={updatedColor => setColor(updatedColor.hex)}/>
-            }     */}
+            <Head icon={<IoColorPaletteSharp size={50} style={{padding: 8}}/>} handleChange={handleChange} options={contentThemes} />
+
+            <Head icon={<RiQuillPenFill size={50} style={{padding: 8}}/>} handleChange={handleChange} options={poem} />
+
+            {/* <div style={{backgroundColor: color}}>
             <Select value={color} size="small" showArrow={false} onChange={updatedColor => setColor(updatedColor.hex)}>
-                    <Option value={color}><ChromePicker color={color} /></Option>
+                    <Option value={color}><ChromePicker color={color} onChange={updatedColor => handleColorChange(updatedColor)} /></Option>
             </Select>
+            </div> */}
 
             <div style={{height: '54px', border: '1px solid white', borderRadius: '3px',padding: '8px' }}>
                 <AiTwotoneSetting size={30} style={{ position: 'relative', textAlign: 'center'}} />

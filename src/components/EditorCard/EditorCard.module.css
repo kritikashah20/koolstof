@@ -12,6 +12,8 @@
 }
 
 .contentCard {
+  background-color: lightblue;
+  color: black;
   border: 1px solid salmon;
   width: 80%;
   height: 80%;
@@ -21,5 +23,4 @@
   left: 0;
   right: 0;
   margin: auto;
-  background: tomato;
 }

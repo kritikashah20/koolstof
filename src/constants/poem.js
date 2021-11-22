@@ -1,8 +1,8 @@
-export const poem = [
-    {
-        text: "sonnet"
+export const poem = {
+    sonnet: {
+        'text': "sonnet"
     },
-    {
-        text: "limerick" 
+    limerick: {
+        'text': "limerick" 
     }
-]
+}
